@@ -1,14 +1,24 @@
-<!DOCTYPE html>
+
 <html>
-<head>
-  <title>CDC</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>CDC Labs</title>
+    <%= stylesheet_link_tag    "application", media: "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div class="container">
+      <ul class="nav nav-tabs">
+        
+        <li><%= link_to "CDC Labs", root_path %></li>
+       
+          
+    </div>
+    </ul>
 
-<%= yield %>
 
-</body>
+      <%= yield %>
+      </div>
+
+  </body>
 </html>
