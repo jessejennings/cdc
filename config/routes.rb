@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'about/index'
+
   get 'service_now/index'
 
   get 'blogs/index'
