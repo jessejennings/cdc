@@ -14,6 +14,8 @@ class ContactsController < ApplicationController
       render :new
     end
   end
+  def show
+  end
 
 private
   def contact_params

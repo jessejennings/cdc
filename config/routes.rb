@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'about/careers'
 
   get 'service_now/index'
+  get 'service_now/web_development'
 
   get 'blogs/index'
 
