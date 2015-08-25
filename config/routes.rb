@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   get 'about/index'
+  get 'about/careers'
 
   get 'service_now/index'
 
@@ -10,7 +11,7 @@ Rails.application.routes.draw do
 
 resources :contacts
 
-
+  
   get 'contacts/index'
 
 root to: 'welcome#index'
