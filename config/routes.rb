@@ -5,6 +5,13 @@ Rails.application.routes.draw do
 
   get 'service_now/index'
   get 'service_now/web_development'
+  get 'service_now/android'
+  get 'service_now/cloud'
+  get 'service_now/ipad'
+  get 'service_now/user_interface'
+  get 'service_now/social_media'
+  get 'service_now/iphone'
+  get 'service_now/mobile'
 
   get 'blogs/index'
 
