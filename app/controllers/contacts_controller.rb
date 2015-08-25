@@ -7,10 +7,10 @@ class ContactsController < ApplicationController
   def create
   	@contact = Contact.new(contact_params)
   	if @contact.save
-      flash[:notice] = "Request was supmitted successfully."
+      flash[:notice] = "Request was submitted successfully."
       redirect_to root_path
     else
-      flash[:error] = "There was an error Please try again."
+      flash[:error] = "There was an error. Please try again."
       render :new
     end
   end
