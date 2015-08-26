@@ -2,7 +2,7 @@ class ContactsController < ApplicationController
 
   def new
   	@contact = Contact.new
-  	@requests = ['Request a quote','Request a callback','Provide feedback','Request support','Say Hi!']
+  	@requests = ['Request a quote','Request a callback','Provide feedback','Request support', 'Apply for a Job', 'Say Hi!']
   end
   def create
   	@contact = Contact.new(contact_params)
