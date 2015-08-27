@@ -4,6 +4,6 @@ class ContactMailer < ApplicationMailer
 		@email = contact.email
 		@subject = contact.subject
 		@body = contact.body
-		mail(to: 'remongeorge@live.com', subject: @subject)
+		mail(to: 'info@cdclabs.com', subject: @subject)
 	end
 end
