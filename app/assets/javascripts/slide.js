@@ -38,3 +38,4 @@ $(function() {
 
 
 });
+$(document).on("page:load ready", ready);
