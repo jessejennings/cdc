@@ -12,11 +12,11 @@ Rails.application.routes.draw do
   get 'service_now/social_media'
   get 'service_now/iphone'
   get 'service_now/mobile'
-
+  get 'service_now/purpose'
   get 'blogs/index'
-
+  get 'service_now/operation'
   get 'mobile_portfolios/index'
-
+  get 'service_now/maximization'
 resources :contacts
 
   
