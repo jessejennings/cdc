@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'web_development/index'
+
   get 'about/index'
   get 'about/careers'
 

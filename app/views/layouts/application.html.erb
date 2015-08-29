@@ -5,7 +5,9 @@
     <%= stylesheet_link_tag    "application", media: "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
+
     <body>
       <nav class="navbar navbar-default">
         <div class="container">
@@ -29,6 +31,7 @@
                 <li><%= link_to "Maximization", service_now_maximization_path %></li>      
                 </ul>
                 </li>
+                <li class="dropdown"><%= link_to "Web Deveopment", web_development_index_path %></li>
                 <li class="dropdown"><%= link_to "Blog", blogs_index_path %></li>
                 <li class="dropdown"><%= link_to "Contact Us", new_contact_path %></li>
               </ul>
@@ -110,11 +113,13 @@
 
         <div class="footer-icons">
 
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-github"></i></a>
-
+          <!--<a href="#"><i class="fa fa-facebook"></i></a> -->
+          <a href="https://twitter.com/competencydev"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.youtube.com/user/CDCLabs"><i class="fa fa-youtube"></i></a>
+          <a href="https://plus.google.com/109056339856373446100"><i class="fa fa-google-plus"></i></a>
+          <a href="https://www.pinterest.com/cdclabs"><i class="fa fa-pinterest"></i></a>
+          <a href="https://www.flickr.com/photos/cdc_labs"><i class="fa fa-flickr"></i></a>
+          <a href="http://www.slideshare.net/cdc_labs/leaflets-111229004733phpapp01"><i class="fa fa-slideshare"></i></a>
         </div>
 
       </div>
