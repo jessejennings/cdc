@@ -9,6 +9,7 @@
   </head>
 
     <body>
+      <div id="wrap">
       <nav class="navbar navbar-default">
         <div class="container">
           <ul class="nav nav-tabs">
@@ -38,15 +39,19 @@
             </div>
          </ul>
        
+
+
+       
       
     <!-- The content of your page would go here. -->
      
-         
+    <div id="footer">
+      <div class="container">     
     <footer class="footer-distributed">
 
       <div class="footer-left">
 
-        <h3>CDC Labs<span>Logo</span></h3>
+        <h3>CDC Labs<span></span></h3>
 
         <p class="footer-links">
           <%= link_to "Home", root_path %>
@@ -96,7 +101,7 @@
           <i class="fa fa-phone"></i>
           <p>+44 776.927.0636</p>
         </div>
-      </br>
+      
         <div>
           <i class="fa fa-envelope"></i>
           <%= link_to "support@company.com", new_contact_path %>
@@ -121,10 +126,12 @@
           <a href="https://www.flickr.com/photos/cdc_labs"><i class="fa fa-flickr"></i></a>
           <a href="http://www.slideshare.net/cdc_labs/leaflets-111229004733phpapp01"><i class="fa fa-slideshare"></i></a>
         </div>
-
       </div>
  
     </footer>
+     </div>
+</div>
+
   <%= yield %>
       </div>
   
